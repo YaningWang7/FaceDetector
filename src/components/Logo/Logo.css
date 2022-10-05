@@ -1,0 +1,25 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    /* background: linear-gradient(90deg, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 100%); */
+    transform-style: preserve-3d;
+}
+
+.inner-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-style: italic;
+    color: black;
+    transform: translateZ(60px);
+  }
+
+  .logo-img{
+    height: auto;
+    width: 75%;
+  }
